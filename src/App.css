@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  /* Header Style */
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4b4b4b;
+    margin-top: 50px;
+  }
+  
+  /* Checkout Card */
+  .checkout-card {
+    background: linear-gradient(to right, #4c6ef5, #6f42c1);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .checkout-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .checkout-card .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .checkout-card .header button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-card .header button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .checkout-card .quantity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .checkout-card .quantity button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-card .quantity button:hover {
+    background-color: #388e3c;
+  }
+  
+  .checkout-card .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .checkout-card .delete-btn {
+    background-color: #f44336;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-card .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Pay Now Button */
+  .pay-now-btn {
+    background: linear-gradient(to right, #1e7dff, #00c6ff);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .pay-now-btn:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .checkout-card {
+      padding: 15px;
+    }
+  
+    .pay-now-btn {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .checkout-card {
+      padding: 10px;
+    }
+  
+    .pay-now-btn {
+      font-size: 1rem;
+    }
+  }
+  
