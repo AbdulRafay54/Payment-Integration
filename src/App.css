@@ -19,7 +19,7 @@ body {
   .checkout-card {
     background: linear-gradient(to right, #4c6ef5, #6f42c1);
     color: white;
-    border-radius: 15px;
+    border-radius: 17px;
     padding: 20px;
     margin: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
